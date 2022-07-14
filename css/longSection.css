@@ -23,6 +23,10 @@
     .long__section .img-card > img{
         width: 100%;
     }
+    .long__section .text-card:nth-of-type(even) {
+        padding-left: 0 !important;
+    }
+
 }
 
 .text-card, .img-card {
@@ -85,6 +89,7 @@
     align-items: start;
     padding-left: 112px;
 }
+
 
 .long__section .text-card:nth-of-type(even) h2{
     letter-spacing: 1px;
