@@ -82,3 +82,16 @@ main.container {
         display: none;
     }
 }
+
+@media (max-width: 414px) {
+    .first__section {
+        padding: 8px 10px 90px 10px;
+    }
+    .first__section > h1 {
+        max-width: 100%;
+        font-size: 2rem;
+        letter-spacing: 0;
+        word-spacing: 0;
+        line-height: 3rem;
+    }
+}

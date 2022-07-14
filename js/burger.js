@@ -3,5 +3,4 @@ function burger() {
     burger.classList.toggle('active')
     var burgerMenu = document.querySelector('.burger__menu');
     burgerMenu.classList.toggle('active')
-    return console.log(burger);
 }

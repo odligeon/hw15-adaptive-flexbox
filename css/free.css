@@ -9,6 +9,17 @@
     }
 }
 
+@media (max-width: 414px) {
+    .tryItFree > div >header {
+        max-width: 100%;
+        font-size: 2rem;
+        letter-spacing: 0;
+        word-spacing: 0;
+        line-height: 3rem;
+        margin-bottom: 30px;
+    }
+}
+
 .free__wrapper.fb-container{
     flex-direction: column;
 }

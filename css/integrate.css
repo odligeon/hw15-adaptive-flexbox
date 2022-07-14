@@ -3,6 +3,24 @@
     align-items: center;
 }
 
+@media (max-width: 414px) {
+    .integrate.fb-container header {
+        max-width: 100%;
+        font-size: 2rem;
+        letter-spacing: 0;
+        word-spacing: 0;
+        line-height: 3rem;
+        margin-bottom: 30px;
+    }
+    .integrate p {
+        width: 100%;
+        padding-left: 30px;
+    }
+    .integrate img {
+        width: 100%;
+    }
+}
+
 .integrate__wrapper.fb-container {
     justify-content: center;
     align-items: center;

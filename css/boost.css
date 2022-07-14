@@ -20,6 +20,17 @@
     }
 }
 
+@media (max-width: 414px) {
+    .boost > h2 {
+        max-width: 100%;
+        font-size: 2rem;
+        letter-spacing: 0;
+        word-spacing: 0;
+        line-height: 3rem;
+        margin-bottom: 30px;
+    }
+}
+
 .boost .cards__wrapper {
     padding: 0;
 }

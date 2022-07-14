@@ -20,6 +20,9 @@
     .long__section > * {
         margin-bottom: 15px!important;
     }
+    .long__section .img-card > img{
+        width: 100%;
+    }
 }
 
 .text-card, .img-card {
@@ -35,6 +38,20 @@
     margin-bottom: 30px;
     max-width: 500px;
     letter-spacing: 1px;
+}
+
+@media (max-width: 414px) {
+    .text-card h2 {
+        max-width: 100%;
+        font-size: 2rem;
+        letter-spacing: 0;
+        word-spacing: 0;
+        line-height: 3rem;
+        margin-bottom: 30px;
+    }
+    .long__section {
+        padding: 20px 15px 30px;
+    }
 }
 
 .text-card p {

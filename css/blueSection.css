@@ -31,3 +31,19 @@ img.revolut {
     margin-top: 53px;
     margin-bottom: 105px;
 }
+
+@media (max-width: 414px) {
+    .blue__section {
+        justify-content: center;
+        align-items: center !important;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        padding: 15px 15px !important;
+        margin-bottom: 25px;
+    }
+
+    .blue__section img.photo {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+}
