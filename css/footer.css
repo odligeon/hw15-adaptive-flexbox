@@ -1,0 +1,132 @@
+footer {
+    background: #EEEEEE;
+    padding: 92px 55px 48px;
+}
+
+@media (max-width: 1280px) {
+    footer > .footer__wrapper > .fb-container {
+        flex-wrap: wrap;
+        gap: 3rem;
+        justify-content: center;
+    }
+    footer > .footer__wrapper > .fb-container > * {
+        margin: 0;
+    }
+}
+
+.footer__wrapper.fb-container {
+    height: 100%;
+    width: 100%;
+    padding: 0 20px;
+    align-items: start;
+    justify-content: end;
+}
+
+@media (max-width: 1336px) {
+    .footer__wrapper.fb-container {
+        justify-content: center;
+    }
+    .case__wrapper {
+        display: none;
+    }
+}
+
+.case__wrapper header {
+    font-size: var(--fs-40px);
+    line-height: 50px;
+    margin-bottom: 28px;
+}
+
+.case__wrapper {
+    justify-self: start;
+    flex-grow: 1;
+}
+
+.case__wrapper img {
+    display: block;
+}
+
+.spec {
+    margin-top: 31px;
+    margin-bottom: 11px;
+}
+
+.case__wrapper > p {
+    max-width: 290px;
+    font-size: var(--fs-20px);
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+
+.case__wrapper > a {
+    text-decoration: none;
+    font-size: var(--fs-20px);
+    line-height: 30px;
+    color: black;
+}
+
+nav.fb-container {
+    align-items: start;
+}
+
+footer nav header {
+    margin: 5px 0 21px;
+    font-size: var(--fs-20px);
+    line-height: 25px;
+}
+nav.fb-container li>a {
+    font-size: var(--fs-15px);
+    line-height: 15px;
+    margin-bottom: 15px;
+    margin-right: 0;
+}
+
+nav > div {
+    width: 187px;
+    margin-right: 34px;
+}
+
+.legal {
+    margin-right: 0;
+}
+
+.blackline {
+    width: 97%;
+    height: 1px;
+    background: black;
+    margin: 95px auto 45px;
+}
+
+.footer__bot.fb-container {
+    margin: 0 20px;
+    justify-content: space-between;
+}
+
+.footer__left.fb-container img{
+    margin-right: 14px;
+}
+
+.footer__left.fb-container p {
+    max-width: 300px;
+    font-size: var(--fs-12px);
+    line-height: 15px;
+    letter-spacing: 1px;
+    word-spacing: -4px;
+}
+
+.footer__left.fb-container {
+    height: 30px;
+}
+
+.footer__right.fb-container {
+    flex-direction: column;
+    align-items: start;
+    margin-right: 75px;
+
+}
+
+.footer__font {
+    font-size: var(--fs-12px);
+    line-height: 15px;
+    letter-spacing: 1px;
+}

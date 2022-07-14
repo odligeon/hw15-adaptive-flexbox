@@ -1,0 +1,45 @@
+.tryItFree {
+    background: #FF9C7D;
+    padding: 120px 328px 160px;
+}
+
+@media (max-width: 1280px) {
+    .tryItFree {
+        padding: 120px 50px 160px;
+    }
+}
+
+.free__wrapper.fb-container{
+    flex-direction: column;
+}
+
+.tryItFree header {
+    font-size: var(--fs-65px);
+    line-height: 75px;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+.tryItFree p {
+    font-size: var(--fs-20px);
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-bottom: 54px;
+}
+
+.tryItFree a{
+    display: block;
+    background: black;
+    color: white;
+    padding: 0 40px;
+    font-size: var(--fs-17px);
+    line-height: 60px;
+    text-decoration: none;
+}
+
+.tryItFree a:hover {
+    background: white;
+    color: black;
+}

@@ -1,0 +1,71 @@
+.boost {
+    padding: 154px 75px 187px;
+    margin-bottom: 245px;
+}
+
+.boost h2 {
+    word-spacing: 6px;
+    text-align: left;
+    margin-bottom: 75px;
+}
+
+@media (max-width: 1024px) {
+    .boost > .cards__wrapper > .card__item {
+        width: 100%;
+        align-items: center !important;
+        height: auto;
+    }
+    .boost {
+        margin: 0;
+    }
+}
+
+.boost .cards__wrapper {
+    padding: 0;
+}
+
+.boost img {
+    margin: 0;
+}
+
+.manager img {
+    margin-bottom: 49px;
+}
+
+.developers img {
+    margin-top: 22px;
+    margin-bottom: 67px;
+}
+
+.translators img {
+    margin-top: 14px;
+    margin-bottom: 58px;
+}
+
+.boost header {
+    font-size: var(--fs-30px);
+    line-height: 40px;
+    margin-bottom: 34px;
+}
+
+.boost .card__item p {
+    font-size: var(--fs-20px);
+    line-height: 30px;
+    text-align: left;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+}
+
+.boost .card__item.fb-container {
+    align-items: flex-start;
+}
+
+.boost .card__item {
+    width: 33.3%;
+}
+
+.boost .card__item a {
+    color: #000000;
+    font-size: var(--fs-20px);
+    line-height: 30px;
+}

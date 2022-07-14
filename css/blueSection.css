@@ -1,0 +1,33 @@
+.blue__section.fb-container {
+    background: #C9E8F2;
+    padding: 0 75px;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.blue__section .text__wrapper {
+    max-width: 920px;
+    margin-top: 63px;
+}
+
+blockquote {
+    font-size: var(--fs-30px);
+    line-height: 40px;
+    letter-spacing: 1px;
+    margin-bottom: 23px;
+}
+
+.text-small {
+    font-size: var(--fs-15px);
+    line-height: 25px;
+    margin-bottom: 7px;
+}
+
+img.revolut {
+
+}
+
+.blue__section img.photo {
+    margin-top: 53px;
+    margin-bottom: 105px;
+}

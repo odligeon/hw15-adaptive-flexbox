@@ -1,0 +1,33 @@
+.brown__section {
+    background: #DABC98;
+    padding: 75px 75px 85px 55px;
+}
+
+.brown__wrapper.fb-container {
+    justify-content: space-between;
+}
+
+.cake {
+    margin-top: 16px;
+}
+
+.brown__wrapper > p {
+    font-size: var(--fs-35px);
+    max-width: 460px;
+}
+
+.rate__wrapper.fb-container{
+    justify-content: space-between;
+}
+
+.rate__wrapper {
+    border-left: 1px solid black;
+    padding: 40px 60px 22px 70px;
+    width: 480px;
+}
+
+@media (max-width: 1280px) {
+    .rate__wrapper {
+        flex-direction: column;
+    }
+}

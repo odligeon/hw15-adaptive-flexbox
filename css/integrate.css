@@ -1,0 +1,51 @@
+.integrate.fb-container {
+    justify-content: center;
+    align-items: center;
+}
+
+.integrate__wrapper.fb-container {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.integrate__wrapper {
+    margin: 160px 0 162px;
+}
+
+.integrate__wrapper > header {
+    font-size: var(--fs-65px);
+    line-height: 75px;
+    max-width: 790px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.integrate__wrapper > p {
+    font-size: var(--fs-25px);
+    line-height: 30px;
+    max-width: 530px;
+    text-align: center;
+    word-spacing: 8px;
+    margin-bottom: 25px;
+}
+
+.integrate__wrapper> a {
+    display: block;
+    font-size: 1rem;
+    line-height: 58px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #ffffff;
+    background: #FF6336;
+    text-align: center;
+    padding: 0 20px;
+    margin-top: 32px;
+    border: 1px solid transparent;
+}
+
+.integrate__wrapper> a:hover {
+    color: #FF6336;
+    background: #ffffff;
+    border: 1px solid black;
+}

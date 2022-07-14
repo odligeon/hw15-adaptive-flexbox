@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+	      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link href="css/styles.css" rel="stylesheet">
+	<link rel="preload" href="fonts/GraphikLCG-Semibold.ttf" as="font" type="font/ttf" crossorigin>
+	<link rel="preload" href="fonts/GraphikLCG-Regular.ttf" as="font" type="font/ttf" crossorigin>
+	<title>Document</title>
+</head>
+<body>
+<header class="header fb-container container">
+	<nav class="font-normal">
+		<ul class="fb-container">
+			<li class="fb"><a href="#"><img src="img/logo.svg" alt="lokalise logo"></a></li>
+			<li class="fb"><a href="#">Product</a></li>
+			<li class="fb"><a href="#">Features</a></li>
+			<li class="fb"><a href="#">Pricing</a></li>
+			<li class="fb"><a href="#">Case studies</a></li>
+			<li class="fb"><a href="#">Resources</a></li>
+		</ul>
+	</nav>
+	<section class="header__section-login">
+		<ul class="fb-container">
+			<li><a href="#" class="font-normal">Log in</a></li>
+			<li><a href="#" class="font-normal">Try it free</a></li>
+		</ul>
+	</section>
+	<section class="burger">
+		<button id="burger__button" onclick="burger()"><span></span></button>
+	</section>
+</header>
+<div class="line container"></div>
+<main class="container">
+	<div class="burger__menu">
+		<nav class="font-semibold">
+			<ul class="fb-container">
+				<li class="fb"><a href="#">Product</a></li>
+				<li class="fb"><a href="#">Features</a></li>
+				<li class="fb"><a href="#">Pricing</a></li>
+				<li class="fb"><a href="#">Case studies</a></li>
+				<li class="fb"><a href="#">Resources</a></li>
+			</ul>
+		</nav>
+	</div>
+	<section class="first__section">
+		<h1 class="font-semibold">Accelerate localization from code to delivery</h1>
+		<p class="desc font-normal">A localization and translation management platform for agile teams. Embrace
+			automation,
+			workflow
+			transparency, and fast project delivery.</p>
+		<ul class="fb-container first__section__buttons">
+			<li><a href="#" class="font-semibold">Try it free</a></li>
+			<li><a href="#" class="font-semibold">Book a demo</a></li>
+		</ul>
+		<p class="font-normal subtext">Try all features for 14 days · No credit card required</p>
+		<img src="img/image%201.svg">
+	</section>
+	<section class="companies__section fb-container">
+		<h2 class="font-semibold">The preferred localization tool of 1500+ companies</h2>
+		<div class="images fb-container">
+			<img src="img/companies/company1.png" alt="Specialized logo">
+			<img src="img/companies/company2.png" alt="Virgin logo">
+			<img src="img/companies/company3.png" alt="Tidal logo">
+			<img src="img/companies/company4.png" alt="Revolut logo">
+			<img src="img/companies/company5.png" alt="Yelp logo">
+			<img src="img/companies/company6.png" alt="Daimler">
+		</div>
+	</section>
+	<section class="long__section fb-container">
+		<div class="text-card fb-container">
+			<h2 class="font-semibold">Control the localization process</h2>
+			<p class="font-normal">Collaborate with your team in a single workspace. Add and assign <span
+					class="underline"> tasks</span>,
+				track progress, and
+				enjoy a seamless localization workflow where you know who is doing what and when.</p>
+			<a href="#" class="font-semibold">Start now</a>
+		</div>
+		<div class="img-card"><img src="img/cards/card1.png" alt=""></div>
+		<div class="img-card"><img src="img/cards/card2.png" alt=""></div>
+		<div class="text-card fb-container">
+			<h2 class="font-semibold">Shorten time to market</h2>
+			<p class="font-normal">Localize your product in parallel with the development cycle. Use the <span
+					class="underline"> Adobe XD</span>, <span class="underline">Figma</span>, and <span
+					class="underline">Sketch</span> plugins to start working on translations as soon as the product
+				design is ready. No more idle waiting.</p>
+			<a href="#" class="font-semibold">Start now</a>
+		</div>
+		<div class="text-card fb-container">
+			<h2 class="font-semibold">Ensure quality</h2>
+			<p class="font-normal">Use built-in tools — e.g. <span class="underline">translation memory</span>, machine
+				translation, and <span class="underline">QA checks</span> — to
+				enhance the quality and cohesion of translations. Add product <span class="underline">screenshots</span>
+				for context and use the
+				<span class="underline">in-context editors</span> for instant previews.</p>
+			<a href="#" class="font-semibold">Start now</a>
+		</div>
+		<div class="img-card"><img src="img/cards/card3.png" alt=""></div>
+		<div class="img-card"><img src="img/cards/card4.png" alt=""></div>
+		<div class="text-card fb-container">
+			<h2 class="font-semibold">Less work for developers</h2>
+			<p class="font-normal">Eliminate the hassle of localization and let developers get back to their main tasks.
+				Save hours with the powerful <span class="underline">API</span>, <span class="underline">CLI</span>,
+				<span class="underline">mobile
+					SDKs</span>, and integrations with
+				<span class="underline">GitHub</span>, <span class="underline">Bitbucket</span>, <span
+						class="underline">JIRA</span>, and
+				more.</p>
+			<a href="#" class="font-semibold">Start now</a>
+		</div>
+	</section>
+	<section class="localize">
+		<h2 class="font-semibold">What can you localize with Lokalise?</h2>
+		<div class="cards__wrapper fb-container">
+			<div class="card__item fb-container">
+				<img src="img/localize/web_apps.png" alt="">
+				<h3 class="font-semibold">Web apps</h3>
+				<p class="font-normal">Any kind of web apps — backend, frontend, single page, blogs — you name it.</p>
+			</div>
+			<div class="card__item fb-container">
+				<img src="img/localize/mob_apps.png" alt="">
+				<h3 class="font-semibold">Mobile apps</h3>
+				<p class="font-normal">Upload any mobile platform language files. Embed <span
+						class="underline">Lokalise iOS SDK</span> or <span class="underline">Lokalise
+					Android SDK</span> if you prefer. </p>
+			</div>
+			<div class="card__item fb-container">
+				<img src="img/localize/games.png" alt="">
+				<h3 class="font-semibold">Games</h3>
+				<p class="font-normal games__text">Our cloud software is trusted by many leading game developers around
+					the
+					world.</p>
+			</div>
+			<div class="card__item fb-container">
+				<img src="img/localize/docs.png" alt="">
+				<h3 class="font-semibold">Documents</h3>
+				<p class="font-normal docs__text">Upload your DOCX and static HTML files.</p>
+			</div>
+			<div class="card__item fb-container">
+				<img src="img/localize/marketing.png" alt="">
+				<h3 class="font-semibold">Marketing e-mails</h3>
+				<p class="font-normal">Integrate with Salesforce Marketing Cloud (coming soon) or translate static
+					e-mails.</p>
+			</div>
+			<div class="card__item fb-container">
+				<img src="img/localize/iot.png" alt="">
+				<h3 class="font-semibold">IoT</h3>
+				<p class="font-normal">We support most popular localization file formats.</p>
+			</div>
+		</div>
+	</section>
+	<section class="boost">
+		<h2 class="font-semibold">Boost your localization team’s productivity tenfold</h2>
+		<div class="cards__wrapper fb-container">
+			<div class="card__item manager fb-container">
+				<img src="img/boost/1.png" alt="">
+				<header class="font-semibold">Managers</header>
+				<p class="font-normal">Update existing and launch new features and products while simultaneously
+					localizing
+					them in
+					multiple
+					languages. Streamline your team's workflow, maximize productivity, and speed up expansion to other
+					markets.</p>
+				<a href="#" class="underline font-normal">Learn more</a>
+			</div>
+			<div class="card__item developers fb-container">
+				<img src="img/boost/2.png" alt="">
+				<header class="font-semibold">Developers</header>
+				<p class="font-normal">Set up an integration with your code repository or your own custom SDK via
+					Lokalise's <span class="underline">powerful API</span>.
+					Do that once, and every time you make changes in the code, they'll be automatically imported to
+					Lokalise for translation.</p>
+				<a href="#" class="underline font-normal">Learn more</a>
+			</div>
+			<div class="card__item translators fb-container">
+				<img src="img/boost/3.png" alt="">
+				<header class="font-semibold">Translators</header>
+				<p class="font-normal">Eliminate double-work and neverending revisions with visual context (screenshots)
+					and live previews. Improve the quality and speed of your translations with built-in CAT tools, like
+					autocomplete, inline machine translation, and translation memory.</p>
+				<a href="#" class="underline font-normal">Learn more</a>
+			</div>
+		</div>
+	</section>
+	<section class="blue__section fb-container">
+		<div class="text__wrapper">
+			<blockquote class="font-normal">“Lokalise has turned a task we were dreading into an absolute pleasure.
+				Great
+				platform,
+				intuitive UX, powerful API. The automatic text recognition for screenshots has been a lifesaver, and
+				over-the-air updates are the icing on the cake.”
+			</blockquote>
+			<p class="text-small font-normal">Edward Cooper, Chief Mobile Officer</p>
+			<img src="img/blue/revolut.svg" alt="" class="revolut">
+		</div>
+		<img src="img/blue/photo.png" alt="" class="photo">
+	</section>
+	<section class="brown__section">
+		<div class="brown__wrapper fb-container">
+			<img src="img/brown/cake.png" alt="" class="cake">
+			<p class="font-semibold">The most-loved translation management software</p>
+			<div class="rate__wrapper fb-container">
+				<img src="img/brown/rate1.png" alt="">
+				<img src="img/brown/rate2.png" alt="">
+			</div>
+		</div>
+	</section>
+	<section class="integrate fb-container">
+		<div class="integrate__wrapper fb-container">
+			<header class="font-semibold">Integrate Lokalise with your work tools</header>
+			<p class="font-normal">Automate processes, eliminate routine tasks, and track progress with ease.</p>
+			<img src="img/integrate/socials.png" alt="">
+			<a href="#" class="font-semibold">See all integrations</a>
+		</div>
+	</section>
+	<section class="tryItFree">
+		<div class="free__wrapper fb-container">
+			<header class="font-semibold">Localization made easy. Why wait?</header>
+			<p class="font-normal">Try for free or let us show you how it works.</p>
+			<a href="#">Try it free</a>
+		</div>
+	</section>
+</main>
+<footer class="container">
+	<div class="footer__wrapper fb-container">
+		<div class="case__wrapper">
+			<header class="font-semibold">Case Studies</header>
+			<img src="img/footer/riding.png" alt="">
+			<img src="img/footer/spec.png" alt="" class="spec">
+			<p class="font-normal">Riding towards global success with a 100% teammate enthusiasm</p>
+			<a href="#" class="font-semibold">Read more</a>
+		</div>
+		<nav class="fb-container">
+			<div class="product">
+				<header class="font-semibold">Product</header>
+				<ul>
+					<li><a href="#" class="font-normal">For developers</a></li>
+					<li><a href="#" class="font-normal">For managers</a></li>
+					<li><a href="#" class="font-normal">For translators</a></li>
+					<li><a href="#" class="font-normal">For designers</a></li>
+					<li><a href="#" class="font-normal">Integrations</a></li>
+					<li><a href="#" class="font-normal">Security</a></li>
+					<li><a href="#" class="font-normal">Pricing</a></li>
+					<li><a href="#" class="font-normal">Automations</a></li>
+				</ul>
+			</div>
+			<div class="support">
+				<header class="font-semibold">Support</header>
+				<ul>
+					<li><a href="#" class="font-normal">Contact</a></li>
+					<li><a href="#" class="font-normal">Documentation</a></li>
+					<li><a href="#" class="font-normal">Status</a></li>
+					<li><a href="#" class="font-normal">Product Updates</a></li>
+					<li><a href="#" class="font-normal">CLI Tool</a></li>
+					<li><a href="#" class="font-normal">API Reference</a></li>
+					<li><a href="#" class="font-normal">iOS and Android SDK</a></li>
+					<li><a href="#" class="font-normal">Supported File Formats</a></li>
+				</ul>
+			</div>
+			<div class="company">
+				<header class="font-semibold">Company</header>
+				<ul>
+					<li><a href="#" class="font-normal">About</a></li>
+					<li><a href="#" class="font-normal">Blog</a></li>
+					<li><a href="#" class="font-normal">Careers | We`re Hiring</a></li>
+					<li><a href="#" class="font-normal">Case Studies</a></li>
+					<li><a href="#" class="font-normal">Media Kit</a></li>
+				</ul>
+			</div>
+			<div class="legal">
+				<header class="font-semibold">Legal</header>
+				<ul>
+					<li><a href="#" class="font-normal">Terms of Service</a></li>
+					<li><a href="#" class="font-normal">Privacy Policy</a></li>
+					<li><a href="#" class="font-normal">Cookie Policy</a></li>
+					<li><a href="#" class="font-normal">Privacy Shield</a></li>
+					<li><a href="#" class="font-normal">DPA</a></li>
+					<li><a href="#" class="font-normal">List of Sub-processors</a></li>
+					<li><a href="#" class="font-normal">Candidates Privacy Notice</a></li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+	<div class="blackline"></div>
+	<div class="footer__bot fb-container">
+		<div class="footer__left fb-container">
+			<img src="img/footer/loca.png" alt="">
+			<p class="font-normal">Localization workflow for your web and mobile apps, games and digital content.</p>
+		</div>
+		<div class="footer__right fb-container">
+			<p class="font-normal footer__font">©2001-2020</p>
+			<p class="font-normal footer__font">All rights reserved.</p>
+		</div>
+	</div>
+</footer>
+<script src="js/burger.js"></script>
+</body>
+</html>

@@ -1,0 +1,145 @@
+.header {
+    padding: 25px 51px;
+    z-index: 3;
+    position: relative;
+    background: white;
+}
+
+@media (max-width: 1070px) {
+    .header {
+        padding: 25px 15px;
+    }
+}
+
+.burger {
+    display: none;
+}
+
+@media (max-width: 1150px) {
+    .header > nav > ul > li:not(:first-child) {
+        display: none;
+    }
+
+    .header__section-login {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+    }
+}
+
+#burger__button {
+    height: 50px;
+    width: 50px;
+    border-radius: 8px;
+    position: relative;
+    border-color: #FF6336;
+}
+
+#burger__button:before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 34px;
+    height: 4px;
+    background: #FF6336;
+    top: 12px;
+    border-radius: 25px;
+    transition: all 0.5s ease-in-out;
+}
+
+#burger__button:after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 34px;
+    height: 4px;
+    background: #FF6336;
+    bottom: 12px;
+    border-radius: 25px;
+    transition: all 0.5s ease-in-out;
+}
+
+#burger__button > span {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 34px;
+    height: 4px;
+    background: #FF6336;
+    bottom: 21px;
+    border-radius: 25px;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.active::before {
+    top: 44% !important;
+    transform: rotate(45deg);
+}
+
+.active::after {
+    bottom: 48% !important;
+    transform: rotate(-45deg);
+}
+
+.active > span {
+    opacity: 0 !important;
+}
+
+.header.fb-container {
+    justify-content: space-between;
+}
+
+nav a {
+    display: block;
+    margin-right: 51px;
+    text-decoration: none;
+    color: #000000;
+    letter-spacing: 1px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+.header__section-login a {
+    display: block;
+    font-size: 1rem;
+    line-height: 43px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #ffffff;
+    background: #FF6336;
+    width: 120px;
+    text-align: center;
+    border: 1px solid transparent;
+}
+
+.header__section-login a:hover {
+    color: #FF6336;
+    background: #ffffff;
+    border: 1px solid black;
+}
+
+
+.header__section-login li:first-child a {
+    display: block;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    font-size: 1rem;
+    line-height: 43px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #000000;
+    background: white;
+    margin-right: 10px;
+    width: 120px;
+    text-align: center;
+}
+
+.header__section-login li:first-child a:hover {
+    background: black;
+    color: white;
+}

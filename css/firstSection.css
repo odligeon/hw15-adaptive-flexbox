@@ -1,0 +1,84 @@
+main.container {
+    position: relative;
+}
+
+.first__section {
+    padding: 124px 0 172px 75px;
+    position: relative;
+}
+
+.first__section > .desc {
+    font-size: var(--fs-25px);
+    max-width: 471px;
+    line-height: 35px;
+    letter-spacing: 1px;
+    margin-bottom: 51px;
+}
+
+.first__section li:first-child a {
+    display: block;
+    font-size: 1rem;
+    line-height: 58px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #ffffff;
+    background: #FF6336;
+    width: 160px;
+    text-align: center;
+    /*border: none;*/
+    border: 1px solid transparent;
+}
+
+.first__section li:first-child a:hover {
+    color: #FF6336;
+    background: #ffffff;
+    border: 1px solid black;
+}
+
+.first__section li a {
+    display: block;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    font-size: 1rem;
+    line-height: 58px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #000000;
+    background: white;
+    margin-right: 10px;
+    width: 160px;
+    text-align: center;
+}
+
+.first__section li a:hover {
+    color: white;
+    background: black;
+}
+
+.first__section__buttons {
+    margin-bottom: 25px;
+}
+
+.subtext {
+    font-size: var(--fs-15px);
+    line-height: 25px;
+    word-spacing: 2px;
+}
+
+.first__section img{
+    display: block;
+    position: absolute;
+    top: 150px;
+    right: 67px;
+}
+
+@media (max-width: 1294px) {
+    .first__section img {
+        opacity: 0.4;
+    }
+}
+
+@media (max-width: 1024px) {
+    .first__section img {
+        display: none;
+    }
+}

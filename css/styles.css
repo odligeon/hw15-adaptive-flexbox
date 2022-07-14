@@ -1,0 +1,96 @@
+@import "reset.css";
+@import "header.css";
+@import "firstSection.css";
+@import "companiesSection.css";
+@import "longSection.css";
+@import "localize.css";
+@import "boost.css";
+@import "blueSection.css";
+@import "brownSection.css";
+@import "integrate.css";
+@import "free.css";
+@import "footer.css";
+@import "burgerMenu.css";
+
+:root {
+    --fs-12px: .75rem;
+    --fs-15px: .9375rem;
+    --fs-17px: 1.0625rem;
+    --fs-18px: 1.125rem;
+    --fs-20px: 1.25rem;
+    --fs-25px: 1.5625rem;
+    --fs-30px: 1.875rem;
+    --fs-35px: 2.1875rem;
+    --fs-40px: 2.5rem;
+    --fs-50px: 3.125rem;
+    --fs-65px: 4.0625rem;
+    --bg--orange: #FF9C7D;
+}
+
+* {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+nav {
+    line-height: 20px;
+    font-size: var(--fs-15px);
+}
+
+.container {
+    max-width: 1440px;
+    margin: auto;
+}
+
+.fb-container {
+    display: flex;
+    align-items: center;
+}
+
+
+.font-normal {
+    font-family: 'Graphik LCG', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.font-semibold {
+    font-family: 'Graphik LCG', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.line {
+    background: #CCCCCC;
+    border: 0;
+    height: 1px;
+}
+
+h1 {
+    font-size: 4.0625rem;
+    line-height: 70px;
+    width: 552px;
+    letter-spacing: 2px;
+    word-spacing: -6px;
+    margin-bottom: 51px;
+}
+
+h2 {
+    font-size: var(--fs-50px);
+    line-height: 60px;
+    text-align: center;
+    color: #000000;
+}
+
+h3 {
+    font-size: var(--fs-25px);
+    line-height: 35px;
+}
+
+.underline {
+    text-decoration: underline;
+}

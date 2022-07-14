@@ -1,0 +1,30 @@
+.companies__section {
+    background: var(--bg--orange);
+    flex-direction: column;
+}
+
+.companies__section h2 {
+    max-width: 720px;
+    margin: 108px auto 70px auto;
+}
+
+div.images {
+    display: flex;
+    padding: 0 100px;
+    margin-bottom: 104px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+@media (max-width: 1024px) {
+    .companies__section > .images {
+        padding: 0;
+        justify-content: space-around;
+    }
+}
+
+.images > img {
+    display: block;
+    align-self: center;
+}
